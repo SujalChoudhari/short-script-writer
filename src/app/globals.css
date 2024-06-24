@@ -75,3 +75,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+table {
+  @apply border-separate border-spacing-0 w-full mb-4;
+}
+
+table td {
+  @apply border border-border p-4;
+}
+
+table th {
+  @apply border border-border p-4 bg-slate-950;
+}

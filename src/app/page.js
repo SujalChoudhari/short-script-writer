@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex bg-custom-radial dark min-h-screen flex-col items-center justify-between p-24">
       <MainPage />
       <Toaster
-        position="top-center"
+        position="bottom-right"
         reverseOrder={false}
       />
     </main>
