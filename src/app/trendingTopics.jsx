@@ -30,7 +30,6 @@ const getTrendingTopics = async (latitude, longitude, location, setLocation, set
 
         if (!res.ok) {
             toast.error("Failed to fetch trending topics");
-            toast.dismiss(fetchingToast);
             return;
         }
 
