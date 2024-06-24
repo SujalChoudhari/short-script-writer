@@ -1,6 +1,7 @@
 import Image from "next/image";
 import MainPage from "./mainpage";
 import { Toaster } from "react-hot-toast";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         position="bottom-right"
         reverseOrder={false}
       />
+      <Footer/>
     </main>
   );
 }
